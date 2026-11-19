@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="238" viewBox="0 0 880 238" role="img" aria-labelledby="title desc">
+  <title id="title">SVA Bench single-sweep workflow</title>
+  <desc id="desc">A marker moves from recipe to sweep to archive. All three stages are labeled.</desc>
+  <style>
+    .label{font:600 18px ui-monospace,Consolas,monospace;fill:#ecf1f8}
+    .detail{font:13px ui-monospace,Consolas,monospace;fill:#afc1d6}
+    .wire{fill:none;stroke:#3d526d;stroke-width:2}
+    .card{fill:#141e2f;stroke:#38516f}
+    .signal{fill:none;stroke:#67e9c9;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-reduced-motion:reduce){.motion{display:none}}
+  </style>
+  <rect x="0" y="0" width="880" height="238" rx="18" fill="#0c1523"/>
+  <text x="39" y="39" class="label">SVA BENCH</text>
+  <text x="841" y="39" text-anchor="end" class="detail">ONE SA SWEEP</text>
+  <path class="wire" d="M153 185H729"/>
+  <g class="card">
+    <rect x="38" y="60" width="230" height="100" rx="10"/>
+    <rect x="325" y="60" width="230" height="100" rx="10"/>
+    <rect x="612" y="60" width="230" height="100" rx="10"/>
+  </g>
+  <g>
+    <text x="54" y="91" class="label">Recipe</text>
+    <text x="54" y="115" class="detail">center / span / RBW</text>
+    <path class="signal" d="M58 136h37m10 0h51m10 0h29"/>
+    <text x="341" y="91" class="label">Sweep</text>
+    <text x="341" y="115" class="detail">configure / read back</text>
+    <path class="signal" d="M343 144l18-2 13 3 11-3 15-1 14-17 10 20 15-2 9-2 16 4 21-2 24 1"/>
+    <text x="628" y="91" class="label">Archive</text>
+    <text x="628" y="115" class="detail">CSV + settings JSON</text>
+    <path class="signal" d="M631 136h39m10 0h54m10 0h28"/>
+  </g>
+  <g fill="#0c1523" stroke="#67e9c9" stroke-width="2">
+    <circle cx="153" cy="185" r="5"/>
+    <circle cx="440" cy="185" r="5"/>
+    <circle cx="729" cy="185" r="5"/>
+  </g>
+  <circle class="motion" r="5" fill="#67e9c9">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M153 185H729"
+      keyPoints="0;0;0.5;0.5;1;1" keyTimes="0;0.12;0.39;0.53;0.8;1" calcMode="linear"/>
+  </circle>
+  <text x="39" y="214" class="detail">USB / LAN / FAKE</text>
+</svg>

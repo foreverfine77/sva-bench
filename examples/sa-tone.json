@@ -1,0 +1,9 @@
+{
+  "center_hz": 1500500000,
+  "span_hz": 120000,
+  "rbw_hz": 3000,
+  "vbw_hz": 3000,
+  "ref_level_dbm": -20,
+  "attenuation_db": 10,
+  "preamp": false
+}
