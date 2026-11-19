@@ -3,7 +3,7 @@
 <p align="center">
   <img src="docs/media/SVA-dog-banner.gif"
        alt="SVA Bench"
-       width="100%">
+       width="30%">
 </p>
 
 **一句话：** 给一份 JSON "配方"，它就替你指挥 SIGLENT SVA 频谱仪扫一条频谱（或零扫宽）迹线，顺手把仪器**实际**用了什么设置也记下来。
